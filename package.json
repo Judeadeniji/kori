@@ -1,0 +1,21 @@
+{
+  "name": "kori",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "kori": "./bin/script.ts"
+  },
+  "exports": {
+    ".": "./index.ts",
+    "./jsx-runtime": "./jsx-runtime.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.2.1"
+  }
+}
